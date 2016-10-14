@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CourseInfomationVCXib">
+            <connections>
+                <outlet property="courseLever" destination="8kN-ln-M4m" id="3kd-Hj-idE"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="授课者" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kBK-Ue-7Wi">
+                    <rect key="frame" x="41" y="86" width="45" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="45" id="3Uy-ww-fY0"/>
+                        <constraint firstAttribute="height" constant="20" id="SM8-Pd-JPk"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T0E-e6-hMj">
+                    <rect key="frame" x="89" y="86" width="240" height="21"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="个人授课" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VIK-cg-kmC">
+                            <rect key="frame" x="37" y="0.0" width="75" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cuq-2Q-J9b">
+                            <rect key="frame" x="107" y="2" width="27" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <state key="normal" title="按钮2"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yNs-oi-yaa">
+                            <rect key="frame" x="2" y="3" width="27" height="14"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <state key="normal" title="按钮1"/>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="院校 / 机构授课" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w09-Ra-jNx">
+                            <rect key="frame" x="142" y="0.0" width="104" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="atn-jO-Y66"/>
+                        <constraint firstAttribute="height" constant="21" id="gRP-yO-GWc"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="课程难度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CcU-pd-GGA">
+                    <rect key="frame" x="26" y="141" width="60" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="7gb-t3-cUN"/>
+                        <constraint firstAttribute="width" constant="60" id="RP2-XR-Sn7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="课程简介" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NLR-Fe-5b4">
+                    <rect key="frame" x="26" y="197" width="60" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="YgD-Rn-D4t"/>
+                        <constraint firstAttribute="width" constant="60" id="jNk-ga-S57"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2P1-dR-3vY">
+                    <rect key="frame" x="89" y="190" width="240" height="67"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="67" id="4EK-Og-mpf"/>
+                    </constraints>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="课程概述" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="loR-MT-k4E">
+                    <rect key="frame" x="26" y="311" width="60" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="50E-bk-DKC"/>
+                        <constraint firstAttribute="height" constant="20" id="Jcu-Ul-4U6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="学习目标" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ifs-rJ-XeI">
+                    <rect key="frame" x="26" y="405" width="60" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="mQH-w6-Mlw"/>
+                        <constraint firstAttribute="height" constant="20" id="muh-6L-dP1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="是否显示学生人数" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RhD-zD-cJH">
+                    <rect key="frame" x="8" y="512" width="84" height="39"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="39" id="6tI-jR-Muw"/>
+                        <constraint firstAttribute="width" constant="84" id="AQR-ag-6G8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XHh-VR-NDZ">
+                    <rect key="frame" x="89" y="302" width="240" height="63"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="63" id="IsB-4E-HDe"/>
+                    </constraints>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bSE-hO-IbE">
+                    <rect key="frame" x="100" y="521" width="203" height="21"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4sC-aZ-dtK">
+                            <rect key="frame" x="0.0" y="5" width="24" height="14"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="是"/>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lab是" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="evS-zj-fud">
+                            <rect key="frame" x="27" y="4" width="42" height="14"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BZi-g2-Sr9">
+                            <rect key="frame" x="100" y="5" width="27" height="14"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="否"/>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lab否" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UVb-tC-DkL">
+                            <rect key="frame" x="127" y="1" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8kN-ln-M4m">
+                    <rect key="frame" x="89" y="142" width="240" height="17"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <accessibility key="accessibilityConfiguration">
+                        <accessibilityTraits key="traits" button="YES" selected="YES"/>
+                    </accessibility>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="17" id="1ub-j2-5UV"/>
+                        <constraint firstAttribute="width" constant="240" id="bOI-ZM-4uy"/>
+                    </constraints>
+                    <state key="normal" title="容易">
+                        <color key="titleColor" red="0.19276660749999999" green="1" blue="0.44842671560000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="courseLever:" destination="-1" eventType="touchUpInside" id="UmE-iU-RPy"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3oS-gd-09P">
+                    <rect key="frame" x="89" y="398" width="240" height="72"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="72" id="4i2-WO-oZv"/>
+                        <constraint firstAttribute="width" constant="240" id="qMz-w2-tkT"/>
+                    </constraints>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="8kN-ln-M4m" secondAttribute="trailing" constant="46" id="0FF-46-Fo1"/>
+                <constraint firstItem="loR-MT-k4E" firstAttribute="centerX" secondItem="kBK-Ue-7Wi" secondAttribute="centerX" constant="-7.5" id="0G3-bi-ofW"/>
+                <constraint firstItem="CcU-pd-GGA" firstAttribute="centerX" secondItem="kBK-Ue-7Wi" secondAttribute="centerX" constant="-7.5" id="0VL-FY-O8F"/>
+                <constraint firstItem="loR-MT-k4E" firstAttribute="trailing" secondItem="kBK-Ue-7Wi" secondAttribute="trailing" id="0ZK-gy-sTI"/>
+                <constraint firstItem="Ifs-rJ-XeI" firstAttribute="trailing" secondItem="kBK-Ue-7Wi" secondAttribute="trailing" id="0hH-Fm-hYv"/>
+                <constraint firstItem="Ifs-rJ-XeI" firstAttribute="top" secondItem="loR-MT-k4E" secondAttribute="bottom" constant="74" id="3Gq-FA-2Ka"/>
+                <constraint firstItem="bSE-hO-IbE" firstAttribute="top" secondItem="3oS-gd-09P" secondAttribute="bottom" constant="51" id="3YS-70-8lF"/>
+                <constraint firstItem="XHh-VR-NDZ" firstAttribute="top" secondItem="2P1-dR-3vY" secondAttribute="bottom" constant="45" id="6Ua-Sl-efH"/>
+                <constraint firstItem="CcU-pd-GGA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="26" id="6hG-Ly-gIy"/>
+                <constraint firstItem="CcU-pd-GGA" firstAttribute="trailing" secondItem="kBK-Ue-7Wi" secondAttribute="trailing" id="6rd-EK-gah"/>
+                <constraint firstItem="XHh-VR-NDZ" firstAttribute="width" secondItem="2P1-dR-3vY" secondAttribute="width" id="85E-xc-EoT"/>
+                <constraint firstItem="kBK-Ue-7Wi" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="86" id="Afi-06-ueR"/>
+                <constraint firstAttribute="trailing" secondItem="T0E-e6-hMj" secondAttribute="trailing" constant="46" id="BGD-po-Qzn"/>
+                <constraint firstItem="CcU-pd-GGA" firstAttribute="trailing" secondItem="kBK-Ue-7Wi" secondAttribute="trailing" id="DzW-7U-S9e"/>
+                <constraint firstItem="Ifs-rJ-XeI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="26" id="FxN-ba-A9h"/>
+                <constraint firstItem="CcU-pd-GGA" firstAttribute="top" secondItem="kBK-Ue-7Wi" secondAttribute="bottom" constant="35" id="G7o-8e-eJI"/>
+                <constraint firstItem="8kN-ln-M4m" firstAttribute="leading" secondItem="CcU-pd-GGA" secondAttribute="trailing" constant="3" id="GzB-09-Wrw"/>
+                <constraint firstItem="loR-MT-k4E" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="26" id="He3-Hc-1eT"/>
+                <constraint firstItem="bSE-hO-IbE" firstAttribute="bottom" secondItem="RhD-zD-cJH" secondAttribute="bottom" constant="-9" id="Hg7-sX-I2x"/>
+                <constraint firstItem="NLR-Fe-5b4" firstAttribute="trailing" secondItem="kBK-Ue-7Wi" secondAttribute="trailing" id="JrE-8V-J4a"/>
+                <constraint firstItem="XHh-VR-NDZ" firstAttribute="leading" secondItem="loR-MT-k4E" secondAttribute="trailing" constant="3" id="KWr-cD-BhN"/>
+                <constraint firstItem="RhD-zD-cJH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="Knn-FA-pMX"/>
+                <constraint firstAttribute="bottom" secondItem="T0E-e6-hMj" secondAttribute="bottom" constant="560" id="LX9-uJ-QQr"/>
+                <constraint firstItem="NLR-Fe-5b4" firstAttribute="trailing" secondItem="kBK-Ue-7Wi" secondAttribute="trailing" id="LmH-0r-PHp"/>
+                <constraint firstItem="loR-MT-k4E" firstAttribute="trailing" secondItem="kBK-Ue-7Wi" secondAttribute="trailing" id="Nj1-Dh-XMW"/>
+                <constraint firstItem="RhD-zD-cJH" firstAttribute="centerX" secondItem="kBK-Ue-7Wi" secondAttribute="centerX" constant="-13.5" id="OkD-gJ-FN3"/>
+                <constraint firstItem="T0E-e6-hMj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="86" id="QeI-vS-hiA"/>
+                <constraint firstItem="3oS-gd-09P" firstAttribute="top" secondItem="XHh-VR-NDZ" secondAttribute="bottom" constant="33" id="Qr4-0H-qh0"/>
+                <constraint firstItem="2P1-dR-3vY" firstAttribute="top" secondItem="NLR-Fe-5b4" secondAttribute="top" constant="-7" id="QtM-ax-7tn"/>
+                <constraint firstItem="8kN-ln-M4m" firstAttribute="top" secondItem="T0E-e6-hMj" secondAttribute="bottom" constant="35" id="RgZ-rg-kak"/>
+                <constraint firstItem="NLR-Fe-5b4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="26" id="Sha-tE-jax"/>
+                <constraint firstItem="kBK-Ue-7Wi" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="41" id="WWb-22-e8J"/>
+                <constraint firstItem="RhD-zD-cJH" firstAttribute="trailing" secondItem="kBK-Ue-7Wi" secondAttribute="trailing" constant="6" id="Wde-Nm-RZJ"/>
+                <constraint firstItem="2P1-dR-3vY" firstAttribute="trailing" secondItem="8kN-ln-M4m" secondAttribute="trailing" id="X60-TR-GPS"/>
+                <constraint firstItem="T0E-e6-hMj" firstAttribute="leading" secondItem="kBK-Ue-7Wi" secondAttribute="trailing" constant="3" id="Z3O-QI-Mhh"/>
+                <constraint firstItem="NLR-Fe-5b4" firstAttribute="centerX" secondItem="kBK-Ue-7Wi" secondAttribute="centerX" constant="-7.5" id="ZD0-XN-QGz"/>
+                <constraint firstAttribute="bottom" secondItem="kBK-Ue-7Wi" secondAttribute="bottom" constant="561" id="aIx-Vq-Icw"/>
+                <constraint firstAttribute="trailing" secondItem="XHh-VR-NDZ" secondAttribute="trailing" constant="46" id="dIv-WT-mFe"/>
+                <constraint firstItem="bSE-hO-IbE" firstAttribute="leading" secondItem="RhD-zD-cJH" secondAttribute="trailing" constant="8" id="eF8-qZ-PCN"/>
+                <constraint firstItem="2P1-dR-3vY" firstAttribute="leading" secondItem="8kN-ln-M4m" secondAttribute="leading" id="eX3-r3-i3Z"/>
+                <constraint firstAttribute="trailing" secondItem="bSE-hO-IbE" secondAttribute="trailing" constant="72" id="lcT-Ll-Qw1"/>
+                <constraint firstItem="Ifs-rJ-XeI" firstAttribute="centerX" secondItem="kBK-Ue-7Wi" secondAttribute="centerX" constant="-7.5" id="nsA-WO-in1"/>
+                <constraint firstItem="RhD-zD-cJH" firstAttribute="top" secondItem="Ifs-rJ-XeI" secondAttribute="bottom" constant="87" id="nyk-rN-D7v"/>
+                <constraint firstItem="Ifs-rJ-XeI" firstAttribute="trailing" secondItem="kBK-Ue-7Wi" secondAttribute="trailing" id="qUu-3D-BeI"/>
+                <constraint firstItem="RhD-zD-cJH" firstAttribute="trailing" secondItem="kBK-Ue-7Wi" secondAttribute="trailing" constant="6" id="rMA-rF-8af"/>
+                <constraint firstItem="3oS-gd-09P" firstAttribute="width" secondItem="2P1-dR-3vY" secondAttribute="width" id="vAu-2X-Erh"/>
+                <constraint firstItem="NLR-Fe-5b4" firstAttribute="top" secondItem="CcU-pd-GGA" secondAttribute="bottom" constant="36" id="xXh-By-BT1"/>
+                <constraint firstItem="loR-MT-k4E" firstAttribute="top" secondItem="NLR-Fe-5b4" secondAttribute="bottom" constant="94" id="yzp-9t-NSf"/>
+                <constraint firstItem="3oS-gd-09P" firstAttribute="leading" secondItem="Ifs-rJ-XeI" secondAttribute="trailing" constant="3" id="zTI-sz-xws"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="222.5" y="369.5"/>
+        </view>
+    </objects>
+</document>
